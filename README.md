@@ -1,4 +1,4 @@
-# MTH8207_FenicsX
+# MTH8207_FEniCSx
 
 Ce répertoire contient les instructions pour l'installation et l'utilisation du code FenicsX ainsi que les fichiers maillages nécessaire à la présentation.
 
@@ -23,10 +23,10 @@ Afin d'installer le code FenicsX, il faut soit [Anacaonda](https://www.anaconda.
 ```
 conda create -n fenicsx-env
 conda activate fenicsx-env
-conda install -c conda-forge fenics-dolfinx mpich pyvista jupyterlab  
+conda install -c conda-forge fenics-dolfinx mpich pyvista jupyterlab gmsh 
 ```
 
-Les deux premières commandes sont identiques à celles affichées sur le [GitHub de Fenics](https://github.com/FEniCS/dolfinx#conda). Le package `Jupyterlab` a toutefois été ajouté sur la dernière commande.
+Les deux premières commandes sont identiques à celles affichées sur le [GitHub de Fenics](https://github.com/FEniCS/dolfinx#conda). Les packages `Jupyterlab` et `gmsh` ont toutefois été ajoutés sur la dernière commande.
 
 ## Utilisation sous Windows 10 et 11
 
